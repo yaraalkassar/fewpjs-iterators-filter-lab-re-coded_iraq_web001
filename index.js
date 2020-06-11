@@ -9,6 +9,6 @@ function fuzzyMatch(drivers, string) {
   return drivers.filter(element => element.startsWith(string))
 }
 
-function matchName(arrOfObjects, string) {
-  return arrOfObjects.filter(obj => obj.name === string)
+function matchName(startsWith, string) {
+  return startsWith.filter(obj => obj.name === string)
 }
