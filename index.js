@@ -10,5 +10,5 @@ function fuzzyMatch(drivers, string) {
 }
 
 function matchName(startsWith, string) {
-  return startsWith.filter(obj => obj.name === string)
+  return startsWith.filter(driver => driver.name === string)
 }
